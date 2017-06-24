@@ -1,0 +1,1 @@
+g++ -o app.bin main.cpp ObjectDetector.cpp -I /home/jacobwang/rcnn/caffe-fast-rcnn/include/ -I /home/jacobwang/rcnn/caffe-fast-rcnn/.build_release/src/ -I /usr/local/cuda-8.0/include/ `pkg-config --libs --cflags opencv` -L /home/jacobwang/rcnn/caffe-fast-rcnn/build/lib/ -lcaffe -lglog -lboost_system -lprotobuf 
